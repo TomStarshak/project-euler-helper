@@ -147,7 +147,7 @@ def generalized_hamming(x, n):
     Returns:
         True if x is n-Hamming, otherwise False
     """
-    primes = sieveOfEratosthenes(n + 1)
+    primes = sieve_of_eratosthenes(n + 1)
     for prime in primes:
         while x % prime == 0:
             x /= prime
