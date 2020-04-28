@@ -3,7 +3,7 @@ Some useful functions that are helpful in completing Project Euler (projecteuler
 # Description
 
 This package contains 10 moduls
-* divisors(n): returns a list of divisors of net
+* divisors(n): returns a list of divisors of n
 * prime_factors(n): returns a list of the prime factors of n
 * is_prime(n): check if n is prime
 * sieve_of_eratosthenes(n): returns a list of all prime numbers < n
