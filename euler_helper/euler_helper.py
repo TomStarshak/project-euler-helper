@@ -62,6 +62,7 @@ def is_prime(n):
         if n % i == 0:
             # Its not a prime number
             return False
+    return True
 
 
 def sieve_of_eratosthenes(n):
