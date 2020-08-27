@@ -100,8 +100,8 @@ def is_pandigital(n):
     Returns:
         True or False
     """
-    digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
-    if len(str(n)) > 9:
+    digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+    if len(str(n)) > 10:
         return False
     for i in range(1, len(str(n)) + 1):
         if digits[i - 1] not in str(n):
