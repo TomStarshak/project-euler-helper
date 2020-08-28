@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: euler-helper
-Version: 0.3
+Version: 0.4
 Summary: Helper functions for Project Euler
 Home-page: https://github.com/TomStarshak/project-euler-helper
 Author: Tom Starshak
@@ -10,9 +10,9 @@ Description: Some useful functions that are helpful in completing Project Euler 
         
         # Description
         
-        This package contains 10 moduls
+        This package contains 10 modules
         * divisors(n): returns a list of divisors of net
-        * prime_factors(n): returns a list of the prime factors of n
+        * prime_factors(n): returns a list of the prime factors of net
         * is_prime(n): check if n is prime
         * sieve_of_eratosthenes(n): returns a list of all prime numbers < n
         * is_palindrome(n): checks if n is a palindromic numbers
